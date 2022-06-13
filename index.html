@@ -5,58 +5,195 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Veronica Trias</title>
-    <link rel="icon" href="C:\Users\veroe\Desktop\Full Stack python\Cv\imagenes\curriculumico.ico">
+    <link rel="icon" href="./imagenes/curriculumico.ico">
     <link href="principal.css" rel="stylesheet" type="text/css">
+    <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/3a6a7a1eda.js" crossorigin="anonymous"></script>
+    <!--Animate-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav >
-            <a href="#formacion"><i class="fa-solid fa-building-columns"></i>Formacion</a>
-            <a href=""><i class="fa-solid fa-briefcase"></i>Experiencia Laboral</a>
-            <a href=""><i class="fa-solid fa-phone"></i>Formas de comunicarse conmigo</a>
-        </nav>
+  <header>
+      <nav class="main-menu">
+        <ul>
+          <li>
+            <a href="#home">
+              <i class="fa fa-home fa-2x"></i>
+                <span class="nav-text">
+                          Home
+                </span>
+              
+            </a>
+          </li>
+          <li>
+            <a href="#yo">
+              <i class="fa fa-solid fa-user fa-2x"></i>
+                <span class="nav-text">
+                          Sobre mi
+                </span>
+              
+            </a>
+          </li>
+            <li>
+              <a href="#skills">
+                <i class="fa fa-laptop fa-2x"></i>
+                   <span class="nav-text">
+                          Skills
+                    </span>
+              </a>      
+            </li>
+              <li >
+                  <a href="#portfolio">
+                     <i class="fa fa-list fa-2x"></i>
+                      <span class="nav-text">
+                          Mis trabajos
+                      </span>
+                  </a>
+                  
+              </li>
+              <li>
+                  <a href="#contacto">
+                    <i class="fa fa-envelope"></i>
+                      <span class="nav-text">
+                          Contacto
+                      </span>
+                  </a>
+         </ul>
+      </nav>
+      
+      <h1 id="home">Bienvenidos</h1>
+      <h2>Me llamo Veronica, soy una nueva desarrolladora Full Stack</h2>
+      <h3>En este portafolio van a ver como fui mejorando con cada trabajo</h3>
+      
+  </header>
+  <main>
+    <section class="Intro"id="intro">
+          <p>Estoy buscando mi primera oportunidad en el entorno de TI.    
+          </p> 
+          <p>De mi puedo decir que soy muy sociable y tengo buena comunicación con mis compañeros, me gusta trabajar en equipo y trabajar con personas que me permitan aprender nuevas tecnologías..
+            Siempre estoy dispuesta a ayudar a quien lo solicite. <br>
+            Me gusta resolver problemas ya que los considero una forma de aprender. <br>
+            Por eso me apaciona el mundo del desarrollo, me entusiasma afrontar problemas.<br>
+            </p>
+            <a class="descarga" href="./mariaVeronicaTriasCv.pdf" download="Maria Veronica Trias Curriculum Vitae">Descagar CV</a><!--Poder descargar el cv-->
+    </section>
+    <section class="skill" id="skills"><!--Skills q manejo-->
+      <article>
+       <h3 class="tituloSkill">Mis Skills</h3>
+        <div class="icono">    
+          <i class="fa-brands fa-html5"></i>
+           <i class="fa-brands fa-css3-alt"></i>
+           <i class="fa-brands fa-js"></i>
+           <i class="fa-brands fa-bootstrap"></i>
+           <i class="fa-brands fa-vuejs"></i>
+           <i class="fa-brands fa-python"></i>
+           <i class="fas fa-database"></i>
+           <i class="fab fa-aws"></i>
+           <i class="fab fa-github"></i>
+           <i class="fa fa-flask"></i> 
+        </div>
+      </article>
+       <article >
+           <h3 class="tituloSkill">Mis Habilidades blandas</h3>
+          <ul class="habilidades">
+              <li>Responsabilidad</li>
+              <li>Empatia</li>
+              <li>Escucha activa</li>
+              <li>Trabajo en equipo</li>
+              <li>Adaptacion al cambio</li>
+              <li>Capacidad para resolver problemas</li>
+              <li>Poder dar respuestas rapidas y asertivas</li>
+              
+          </>
+               
+               
+       </article>
 
-    </header>
-    <main>
-        <section class="Intro">
-            <img class="intro-img" src= "./imagenes/profile-pic.png" alt="Veronica">
-            <div class="intro-p">
-                <p>Hola! Me llamo Veronica Trias, tengo 38 años y estoy en busqueda de un trabajo en el area de tecnologia.</p>
-                <p>Hace 13 años que estoy en pareja con Emanuel, con el cual tenemos una hija de 7 años que se llama Luana y esta en segundo grado de primaria.</p>
-                <P>Despues de haber vivido 20 años en Ciudad de Buenos Aires y haber pasado por una cuarentena de covid, 
-                    decidimos con mi pareja que queriamos estar mejor y pasar mas tiempo en familia, por lo que nos mudamos a mi ciudad natal Bragado, Prov. de Buenos Aires.</p>
-                <p>De mi puedo decir que soy muy sociable, tengo buena comunicacion con mis pares y clientes.</p>
-                <p>Siempre estoy predispuesta para ayudar a quien lo solicite. Me gusta resolver problemas ya que los considero una forma de aprender, por lo que los afronto con entusiasmo.</p>
-                <p>Por otro lado, proceso y asimilo muy rapido la informacion, lo que me permite entender las tareas de forma dimanica y en poco tiempo.</p>
-                
-            </div>
+    </section>
+    <section class="trabajos" id="portfolio"> <!--Lista de los trabajos, en orden de mejora, cada trabajo con una descripcion-->
+      <h2 class="Porfolio">Mis Trabajos</h2>
+        <a href="#"name="Portfolio"></a>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/yerbaMate.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="tituloImg">Yerba Mate</h5>
+                      <p class="pie">Primer proyecto creado para el curso Codo a Codo, se trata de una pagina realizada en HTML5, CSS3, JavaScript. <br>
+                        <a href="https://tpo-desarrolloweb-yerbamate.netlify.app">Ir al proyecto</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/gatos.png" class="d-block w-80" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="tituloImg">Gatos</h5>
+                      <p class="pie">Utilizando una API de gatitos, realice este pequeño proyecto con HTML5, CSS3  y JavaScript. <br>
+                      <a href="https://gatos-apiconjs.netlify.app">Ir al proyecto</a></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/pokemon.png" class="d-block w-80" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="tituloImg">Pokemon</h5>
+                      <p class="pie">Para este proyecto utilice una API de pokemon junto con el frameword Vue.js. <br>
+                        <a href="https://pokemonwithvuejs.netlify.app">Ir al proyecto</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/spaYerbaMate.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="tituloImg">Yerba Mate Spa</h5>
+                      <p class="pie">Para mejorar mis conocimientos en Vue.js, tome la idea de mi primer proyecto y lo volvi a realizar pero 
+                        con convirtiendolo en una SPA, para que sea más dinamico y se pueda ver la información en tiempo real. <br>
+                        <a href="https://yerbamatewithvuejs.netlify.app">Ir al proyecto</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
-        <section class="formacion">
-            <a name="formacion" id="formacion"></a>
-            <h2 class="formacion-h2">Formacion</h2>
-            <div class="formacion-p">
-                <p>
-                    Estoy cursando <span style="font-weight: bold;">Full Stack Developer</span> en el programa Codo a Codo 4.0 
-                    del Gobierno de la Ciudad de Buenos.
-                </p>
-                <p>
-                    Realice mis estudios secunbdarios en la <span style="font-weight: bold;">Escuela 
-                        Normal Mixta</span> de la Ciudad de Bragado, finalizandoloen el año de 2001.
-                </p>
-                <p>
-                    <span style="font-weight: bold;">Certificacion de Google Activate</span>. Realice los cursos de:
-                
-                 
-                    <ul> <li>Digitaliza paso a paso tu negocio con Google  my Bussines y Youtube.</li>
-                         <li>Introducción al desarrollo Web I. </li>
-                         <li>Fundamentos del Marketing Digital.</li>
-                    </ul>   
-                </p>
-            </div>
+      
+        <section  id="contacto"class="contacto">
+          <h3 >Para contactarme</h3>
+          <h4 class="contacto-icon">
+          <a href=""><i class="fa-brands fa-whatsapp-square"></i>11- 66531806</a><br>
+          <a href=""><i class="fa-solid fa-envelope"></i>vero.ramm@gmail.com</a>
+          </h4>
+          <div class="contacto-icon">
+              <a href="https://www.facebook.com/Vero.Ramm1514"><i class="fa-brands fa-facebook"></i> </a>
+              <a href="https://www.instagram.com/veronicarammstein/?hl=es-la"><i class="fa-brands fa-instagram-square"></i> </a>
+              <a href="https://github.com/VeroRamm"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/maria-veronica-trias"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
         </section>
 
     </main>
+    <footer>
+        <p>&copy; 2020 Veronica Trias</p>
+    </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
