@@ -4,7 +4,7 @@ const templates={
     <div class='titulo'>
     <h1>{{titulo}}</h1>
     <h2>{{parrafo1}}</h2>
-    <h2>{{parrafo2}}</h2>
+    <h3>{{parrafo2}}</h3>
     </div>
   </div>`,
   intro:
@@ -12,10 +12,13 @@ const templates={
 <section class="Intro">
     <p>Estoy buscando mi primera oportunidad de trabajo en el entorno de IT.    
     </p> 
-    <p>De mi puedo decir que soy muy sociable y tengo buena comunicación con mis compañeros, me gusta trabajar en equipo y trabajar con personas que me permitan aprender nuevas tecnologías.
+    <p>De mi puedo decir que soy muy sociable y tengo buena comunicación con mis compañeros, me gusta trabajar en equipo.
     Siempre estoy dispuesta a ayudar a quien lo solicite. <br>
     Me gusta resolver problemas ya que los considero una forma de aprender. <br>
-    Por eso me apaciona el mundo del desarrollo, me entusiasma afrontar problemas.<br>
+    Por eso me apaciona el mundo del desarrollo, me entusiasma afrontar nuevos retos y aprender nuevas tecnologías. <br>
+    Estoy segura de que tengo mucho para proporcionar y mucho mas por conocer. <br>
+    Mi motivación principal es convertirme en una gran profesional, por eso espero que las experiencias y <br>
+    habilidades que les ofrezco se adapten a lo que ustedes necesitan para poder continuar creciendo profesionalmente en su equipo.
     </p>
     <a class="descarga" href="./mariaVeronicaTriasCv.pdf" download="Maria Veronica Trias Curriculum Vitae">Descagar CV</a><!--Poder descargar el cv-->
 </section>
@@ -111,26 +114,25 @@ trabajos:`
 </div>`,
  contacto:`
  <div id="contacto" class="active">
+ <h3>Formas de contactarme</h3>
  <section  id="contacto"class="contacto">
- <h3 >Formas de contactarme</h3>
  <form action="" id="formulario" class = "formulario" @submit="checkForm">
- <label for="nombre" class= "indicacion" >Nombre</label>
  <input v-model= "nombre" class= "input" type="text" id="nombre" name="nombre" placeholder="Nombre">
- <label for="email">Email</label>
  <input v-model = "email" class= "input" type="email" id="email" name="email" placeholder="Email">
- <label for="mensaje">Mensaje</label>
  <textarea v-model= "mensaje" class= "inputText" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
  <input class= "boton" type="submit" value="Enviar">
  </form>
-<h4 class="contacto-icon">
-<a href=""><i class="fa-brands fa-whatsapp-square"></i>11- 66531806</a><br>
-<a href=""><i class="fa-solid fa-envelope"></i>vero.ramm@gmail.com</a>
-</h4>
-<div class="contacto-icon">
+ <div class="datos">
+ <h4 class="contacto-icon">
+ <a href=""><i class="fa-brands fa-whatsapp-square"></i>11- 66531806</a><br>
+ <a href=""><i class="fa-solid fa-envelope"></i>vero.ramm@gmail.com</a>
+ </h4>
+ <div class="contacto-icon">
     <a href="https://www.facebook.com/Vero.Ramm1514"><i class="fa-brands fa-facebook"></i> </a>
     <a href="https://www.instagram.com/veronicarammstein/?hl=es-la"><i class="fa-brands fa-instagram-square"></i> </a>
     <a href="https://github.com/VeroRamm"><i class="fa-brands fa-github"></i></a>
     <a href="https://www.linkedin.com/in/maria-veronica-trias"><i class="fa-brands fa-linkedin"></i></a>
+</div>
 </div>
 </section>
 </div>`,
@@ -146,8 +148,8 @@ const app = new Vue({
               data: function(){
                 return {
                     titulo: 'Bienvenidos',
-                    parrafo1: 'Me llamo Veronica, soy una nueva desarrolladora Full Stack.',
-                    parrafo2: 'En este portafolio van a ver como fui mejorando con cada trabajo',
+                    parrafo1: 'Me llamo Veronica, soy desarrolladora Full Stack.',
+                    parrafo2: 'En este portafolio van a ver como fue mejorando mi trabajo con cada nuevo proyecto que emprendi.',
                     view: 'home'
                 }
               },

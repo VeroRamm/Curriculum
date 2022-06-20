@@ -3,43 +3,45 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    scroll-behavior: smooth;
    
 }
 main{
-    background-color: #2196f3;
+    background-color: #1465bb;
 }
 .titulo{
     background-image: url('https://img.freepik.com/free-vector/programming-code-made-with-binary-code-coding-hacker-background-digital-binary-data-streaming-digital-code_127544-778.jpg?w=900');
-    padding: 40px;
-    text-align: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-top:-30px ;
+    text-align: center;
+    padding: 10%;
     width: 100%;
     height: 100vh;
+    opacity: 0.9;
 }
  .titulo h1{
     font-size: 4rem;
     font-weight: bold;
-    color: rgb(248, 244, 244);
-    margin-top:15%;
-    text-shadow: #003785 6px 5px 12px;
+    color: rgb(190, 186, 186);
+    text-shadow: #0c0c0c 6px 5px 12px;
 }
 .titulo h2{
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(248, 244, 244);
-    margin-top:10px;
-    text-shadow: #003785 6px 5px 12px;
-    padding-left: 20px;
+    color: rgb(190, 186, 186);
+    text-shadow: #0c0c0c 6px 5px 12px;
 }
 .titulo h3{
-    font-size: 1.5rem;
+    padding: 10%;
+    font-size: 2.5rem;
     font-weight: bold;
-    color: rgb(248, 244, 244);
-    margin-top:40px;
-    text-shadow: #003785 6px 5px 12px;
+    color: rgb(190, 186, 186);
+    text-shadow: #0c0c0c 6px 5px 12px;
 }
+
 /* Estilo del menu*/
 
 .fa-2x {
@@ -59,8 +61,8 @@ width:250px;
 overflow:visible;
 }
 .main-menu {
-background:#003785;
-border-right:1px solid #003785;
+background:#0353c2;
+border-right:1px solid #0352c0;
 position: fixed;
 top:0;
 bottom:0;
@@ -184,8 +186,8 @@ height: 100%;
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 20px;
-    border: #003785 solid 3px;
-    
+    margin-top: -30px;
+    padding-top: 30px;
 }
 .Porfolio{
     background-color: #81c9fa;
@@ -206,7 +208,7 @@ height: 100%;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 20px;
@@ -230,12 +232,14 @@ height: 100%;
     text-align: center;
     padding-left: 10%;
     font-size: 20px;
-    padding-top: 40px;
+    margin-top: -30px;
+    padding-top: 30px;
+    margin-bottom: -30px;
 }
 .icono{
     background-color: rgb(247, 236, 220,.5);
     border-radius: 10px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: rgb(3, 3, 3);
     margin-bottom: 10px;
@@ -246,10 +250,9 @@ height: 100%;
     -o-border-radius: 10px;
 }
 .tituloSkill{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: rgb(3, 3, 3);
-    padding-top:20px;
     width: 80%;
 }
 .habilidades{
@@ -267,47 +270,130 @@ height: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(247, 236, 220,.5);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: rgb(3, 3, 3);
     width: 50%;
     height: 100%;
     text-align: center;
 }
+.habilidades li:hover{
+    background-color: rgb(247, 236, 220);
+    color: rgb(3, 3, 3);
+}
   
 /*Contacto*/
 .contacto{
     background-color:#045bd6;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     text-align: center;
-    padding-left: 10%;
     padding-top: 10px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: -30px;
+    flex-direction: row;
+    padding-left: 10px;
 }
-.contacto h3{
-    font-size: 40px;
-    font-weight: bold;
-}
-form{
+.formulario{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 10px;
     flex-direction: column;
+    gap: 10px;
+    
 }
-.contacto-icon{
-    font-size: 30px;
+.input{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid #003785;
+    padding-left: 10px;
+    font-size: 1.2rem;
     font-weight: bold;
     color: rgb(3, 3, 3);
-    margin-top:10px;
+}
+.inputText{
+    width: 80%;
+    height: 100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid #003785;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+}
+.datos{
     width: 100%;
     height: 100%;
-    text-align: center;
-    padding: 20px;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
 }
+.contacto-icon{
+    background-color: rgb(247, 236, 220,.5);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    margin-bottom: 10px;
+    width: 80%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.active>h3{
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    margin-top: -30px;
+    padding-top: 30px;
+    background-color:#045bd6;
+    
+}
+.boton{
+    background-color: #83aee9;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid #0f54b4;
+    color: rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boton:hover{
+    background-color: #01204b;
+    color: #fff;
+}
+
+
  #contacto a{
     color: rgb(3, 3, 3);
     text-decoration: none;
@@ -318,7 +404,7 @@ footer{
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
     font-weight: 600;
    
