@@ -20,7 +20,7 @@ const templates={
     Mi motivación principal es convertirme en una gran profesional, por eso espero que las experiencias y <br>
     habilidades que les ofrezco se adapten a lo que ustedes necesitan para poder continuar creciendo profesionalmente en su equipo.
     </p>
-    <a class="descarga" href="./mariaVeronicaTriasCv.pdf" download="Maria Veronica Trias Curriculum Vitae">Descagar CV</a><!--Poder descargar el cv-->
+    <a class="descarga" href="./Maria Veronica Trias Curriculum Vitae.pdf" download="Maria Veronica Trias Curriculum Vitae">Descagar CV</a><!--Poder descargar el cv-->
 </section>
 </div>`,
 skills:`
