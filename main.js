@@ -6,10 +6,22 @@ const templates={
     <h2>{{parrafo1}}</h2>
     <h3>{{parrafo2}}</h3>
     </div>
+    <div class="burbujas">
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    </div>
   </div>`,
   intro:
  `<div id="intro" class="active">
 <section class="Intro">
+
     <p>Estoy buscando mi primera oportunidad de trabajo en el entorno de IT.    
     </p> 
     <p>De mi puedo decir que soy muy sociable y tengo buena comunicación con mis compañeros, me gusta trabajar en equipo.
@@ -147,10 +159,10 @@ const app = new Vue({
             home :{
               data: function(){
                 return {
-                    titulo: 'Bienvenidos',
-                    parrafo1: 'Me llamo Veronica, soy desarrolladora Full Stack.',
-                    parrafo2: 'En este portafolio van a ver como fue mejorando mi trabajo con cada nuevo proyecto que emprendi.',
-                    view: 'home'
+                  titulo: 'Bienvenidos',
+                  parrafo1: 'Me llamo Veronica, soy desarrolladora Full Stack trainer.',
+                  parrafo2: 'En este portafolio van a ver como fue mejorando mi trabajo con cada nuevo proyecto que emprendi.',
+                  view:'home'
                 }
               },
               template: templates.home,

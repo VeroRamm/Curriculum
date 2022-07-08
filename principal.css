@@ -3,16 +3,15 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    background-color: linear-gradient(to right, #1465bb, #2e86de); 
    
 }
 main{
-    background-color: #1465bb;
+    background-color: linear-gradient(to right #1465bb, #2e86de); 
 }
 .titulo{
-    background-image: url('https://img.freepik.com/free-vector/programming-code-made-with-binary-code-coding-hacker-background-digital-binary-data-streaming-digital-code_127544-778.jpg?w=900');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #003785;
+    
     height: 100%;
     width: 100%;
     margin-top:-30px ;
@@ -20,7 +19,8 @@ main{
     padding: 10%;
     width: 100%;
     height: 100vh;
-    opacity: 0.9;
+    
+    
 }
  .titulo h1{
     font-size: 4rem;
@@ -40,6 +40,95 @@ main{
     font-weight: bold;
     color: rgb(190, 186, 186);
     text-shadow: #0c0c0c 6px 5px 12px;
+}
+/*Burbujas*/
+.burbuja{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(192, 183, 183);
+    border-radius: 50%;
+    opacity: .3;
+    position: absolute;
+    bottom: -150;
+    left: 5%;
+    animation: burbujas 3s linear infinite;  
+}
+.burbuja:nth-child(1){
+    animation-delay: 2s;
+    width: 40px;
+    height: 40px;
+    left: 15%;
+    animation-duration: 7s;
+}
+.burbuja:nth-child(2){
+    animation-delay: .5s;
+    width: 70px;
+    height: 70px;
+    left: 35%;
+    animation-duration: 8s;
+}
+.burbuja:nth-child(3){
+    animation-delay: 1s;
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    animation-duration: 5s;
+}
+.burbuja:nth-child(4){
+    animation-delay: 1.5s;
+    width: 60px;
+    height: 60px;
+    left: 65%;
+    animation-duration: 9s;
+}
+.burbuja:nth-child(5){
+    animation-delay: 2s;
+    width: 30px;
+    height: 30px;
+    left: 55%;
+    animation-duration: 7s;
+}
+.burbuja:nth-child(6){
+    animation-delay: 2s;
+    width: 80px;
+    height: 80px;
+    left: 85%;
+    animation-duration: 7s;
+}
+.burbuja:nth-child(7){
+    animation-delay: 3s;
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    animation-duration: 6s;
+}
+.burbuja:nth-child(7){
+    animation-delay: 2s;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+    animation-duration: 6s;
+}
+@keyframes burbujas {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+    30% {
+        transform: translateX(30px);
+        -webkit-transform: translateX(30px);
+        -moz-transform: translateX(30px);
+        -ms-transform: translateX(30px);
+        -o-transform: translateX(30px);
+}
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        bottom: 100vh;
+        opacity: 0;
+    }
+    
 }
 
 /* Estilo del menu*/
@@ -162,6 +251,7 @@ height: 100%;
     font-weight: bold;
     padding-bottom: 20px;
     border: #003785 solid 2px;
+    overflow: hidden;
     
 }
 .descarga{
