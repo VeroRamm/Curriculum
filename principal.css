@@ -8,7 +8,6 @@
 }
 .titulo{
     background-color: #003785;
-    
     height: 100%;
     width: 100%;
     margin-top:-30px ;
@@ -17,26 +16,20 @@
     width: 100%;
     height: 100vh;
     
+    font-weight: bold;
+    color: rgb(190, 186, 186);
+    text-shadow: #0c0c0c 6px 5px 12px;
     
 }
- .titulo h1{
+.titulo h1{
     font-size: 4rem;
-    font-weight: bold;
-    color: rgb(190, 186, 186);
-    text-shadow: #0c0c0c 6px 5px 12px;
 }
 .titulo h2{
-    font-size: 3rem;
-    font-weight: bold;
-    color: rgb(190, 186, 186);
-    text-shadow: #0c0c0c 6px 5px 12px;
+    font-size: 3rem; 
 }
 .titulo h3{
     padding: 10%;
     font-size: 2.5rem;
-    font-weight: bold;
-    color: rgb(190, 186, 186);
-    text-shadow: #0c0c0c 6px 5px 12px;
 }
 /*Burbujas*/
 .burbuja{
@@ -137,7 +130,7 @@ font-size: 30px;
 position: relative;
 display: table-cell;
 width: 60px;
-height: 46px;
+height: 40px;
 text-align: center;
 vertical-align: middle;
 font-size:30px;
@@ -496,3 +489,45 @@ footer{
     font-weight: 600;
    
 }
+@media (max-width: 576px) { 
+    .titulo h1{
+        font-size: 50px;
+    }
+    .titulo h2{
+        font-size: 40px;
+    }
+    .titulo h3{
+        font-size: 30px;
+    }
+    .fa{
+        font-size:20px
+    }
+    .tituloT{
+        font-size:20px;
+        margin: 0;
+        width:50%;
+        height:100%;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .titulo h1{
+        font-size: 1rem;
+    }
+   
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .titulo h1{
+        font-size:1px;
+    
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .titulo h1{
+        font-size: 4rem;
+    }
+ }

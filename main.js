@@ -81,8 +81,8 @@ trabajos:`
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./imagenes/yerbaMate.png"  alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <img src="./imagenes/yerbaMate.png" class="d-block w-100 h-100" alt="...">
+      <div class="carousel-caption">
         <h5 class= "tituloT">Yerba Mate</h5>
         <p class="parrafoT">Primer proyecto creado para el curso Codo a Codo, se trata de una pagina realizada en HTML5, CSS3, JavaScript.</p>
         <a href="https://tpo-desarrolloweb-yerbamate.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a>
@@ -90,26 +90,26 @@ trabajos:`
     </div>
     <div class="carousel-item">
       <img src="./imagenes/gatos.png" class="d-block w-100 h-100"  alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5 class= "tituloT">Gatos</h5>
         <p class="parrafoT">Utilizando una API de gatitos, realice este pequeño proyecto con HTML5, CSS3  y JavaScript.</p>
-        <a class="parrafoT" href="https://gatos-apiconjs.netlify.app" target="_blank"class="btn btn-primary">Ver proyecto</a>
+        <a href="https://gatos-apiconjs.netlify.app" target="_blank"class="btn btn-primary">Ver proyecto</a>
       </div>
     </div>
     <div class="carousel-item">
       <img src="./imagenes/pokemon.png" class="d-block w-100 h-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5 class= "tituloT">Pokemon</h5>
         <p class="parrafoT">Utilizando una API de pokemon, realice este pequeño proyecto con HTML5, CSS3  y JavaScript.</p>
-        <a class="parrafoT" href="https://pokemonwithvuejs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
+        <a href="https://pokemonwithvuejs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
       </div>
     </div>
     <div class="carousel-item">
       <img src="./imagenes/spaYerbaMate.png" class="d-block w-100 h-75" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5 class= "tituloT">SPA Yerba mate</h5>
         <p class="parrafoT">Utilizando una API de gatitos, realice este pequeño proyecto con HTML5, CSS3  y JavaScript.</p>
-        <a class="parrafoT" href="https://yerbamatewithvuejs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
+        <a href="https://yerbamatewithvuejs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
       </div>
     </div>
   </div>
@@ -206,6 +206,7 @@ const app = new Vue({
                             alert('Por favor complete todos los campos');
                         }else{
                             alert('Mensaje enviado');
+                            
                         }
 
                     }}
