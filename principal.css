@@ -3,11 +3,8 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    background-color: linear-gradient(to right, #1465bb, #2e86de); 
+    
    
-}
-main{
-    background-color: linear-gradient(to right #1465bb, #2e86de); 
 }
 .titulo{
     background-color: #003785;

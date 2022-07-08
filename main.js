@@ -7,28 +7,28 @@ const templates={
     <h3>{{parrafo2}}</h3>
     </div>
     <div class="burbujas">
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
-    <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
     </div>
   </div>`,
   intro:
  `<div id="intro" class="active">
 <section class="Intro">
 
-    <p>Estoy buscando mi primera oportunidad de trabajo en el entorno de IT.    
+    <p>Estoy buscando mi primera oportunidad de trabajo en el entorno IT.    
     </p> 
-    <p>De mi puedo decir que soy muy sociable y tengo buena comunicación con mis compañeros, me gusta trabajar en equipo.
-    Siempre estoy dispuesta a ayudar a quien lo solicite. <br>
-    Me gusta resolver problemas ya que los considero una forma de aprender. <br>
-    Por eso me apaciona el mundo del desarrollo, me entusiasma afrontar nuevos retos y aprender nuevas tecnologías. <br>
-    Estoy segura de que tengo mucho para proporcionar y mucho mas por conocer. <br>
+    <p>De mi puedo decir que soy muy sociable y tengo buena comunicación con mis compañeros, me gusta trabajar en equipo y
+    siempre estoy dispuesta a ayudar a quien lo solicite. <br>
+    Considero que el mundo del desarrollo es ideal para mi, me entusiasma afrontar nuevos retos y aprender nuevas tecnologías. <br>
+    Y por sobre todo, me apasiona resolver problemas ya que los considero una forma de aprender. <br>
+    Estoy segura de que tengo mucho para dar y mucho más por conocer. <br>
     Mi motivación principal es convertirme en una gran profesional, por eso espero que las experiencias y <br>
     habilidades que les ofrezco se adapten a lo que ustedes necesitan para poder continuar creciendo profesionalmente en su equipo.
     </p>
