@@ -89,7 +89,7 @@ trabajos:`
       <div class="carousel-caption d-none d-md-block">
         <h5 class= "tituloT">Pokemon</h5>
         <p class="parrafoT">Utilizando una API de pokemon, realice este pequeño proyecto con HTML5, CSS3  y JavaScript.</p>
-        <a class="parrafoT" href="https://pokemon-apiconjs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
+        <a class="parrafoT" href="https://pokemonwithvuejs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
       </div>
     </div>
     <div class="carousel-item">
@@ -97,7 +97,7 @@ trabajos:`
       <div class="carousel-caption d-none d-md-block">
         <h5 class= "tituloT">SPA Yerba mate</h5>
         <p class="parrafoT">Utilizando una API de gatitos, realice este pequeño proyecto con HTML5, CSS3  y JavaScript.</p>
-        <a class="parrafoT" href="https://spa-yerbamate.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
+        <a class="parrafoT" href="https://yerbamatewithvuejs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
       </div>
     </div>
   </div>
