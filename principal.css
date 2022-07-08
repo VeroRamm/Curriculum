@@ -123,8 +123,8 @@
 
 /* Estilo del menu*/
 
-.fa-2x {
-font-size: 30px;
+.fa-2x{
+    font-size:40px;
 }
 .fa {
 position: relative;
@@ -152,8 +152,8 @@ overflow:hidden;
 -webkit-transition:width .05s linear;
 transition:width .05s linear;
 z-index:1000;
-margin-top: 50px;
-padding-top: 50px;
+margin-top: 60px;
+padding-top: 60px;
 }
 .main-menu>ul {
 margin:7px 0;
@@ -169,7 +169,7 @@ display:table;
 border-collapse:collapse;
 border-spacing:0;
 color:#999;
- font-family: arial;
+font-family: arial;
 font-size: 20px;
 text-decoration:none;
 -webkit-transition:all .1s linear;
@@ -507,7 +507,10 @@ footer{
         font-size: 30px;
     }
     .fa{
-        font-size:20px
+        font-size:15px
+    }
+    .fa-2x{
+        font-size:20px;
     }
     .tituloT{
         font-size:20px;
@@ -525,14 +528,18 @@ footer{
     }
     .main-menu:hover,nav.main-menu.expanded {
         width:60px;
-        overflow:auto;
+        overflow:hidden;
         text-align: none;
-        }
+    }
+    .nav-text{
+        display:none;
+        
+    }
 }
 
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 800px) { 
+@media (min-width: 600px) { 
     .titulo h1{
         font-size:1px;
     
