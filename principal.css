@@ -280,6 +280,13 @@ height: 100%;
     font-weight: bold;
     padding-bottom: 20px;
 }
+.slide{
+    margin-top: 10px;
+
+}
+.slide img{
+    height:50vh;
+}
 .tituloT{
     background-color: #e6eff8;
     opacity: 0.8;
@@ -489,7 +496,7 @@ footer{
     font-weight: 600;
    
 }
-@media (max-width: 576px) { 
+@media (max-width: 800px) { 
     .titulo h1{
         font-size: 50px;
     }
@@ -508,14 +515,13 @@ footer{
         width:50%;
         height:100%;
     }
-}
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-    .titulo h1{
-        font-size: 1rem;
+    .contacto{
+        display:flex;
+        flex-direction:column;
+
     }
-   
- }
+}
+
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
