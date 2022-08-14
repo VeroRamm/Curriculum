@@ -14,7 +14,7 @@
     text-align: center;
     padding: 10%;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     
     font-weight: bold;
     color: rgb(190, 186, 186);
@@ -232,16 +232,17 @@ height: 100%;
 .Intro{
     background-color: #81c9fa;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 20px;
     border: #003785 solid 2px;
     overflow: hidden;
+    margin-top: -30px;
     
 }
 .descarga{
@@ -259,7 +260,7 @@ height: 100%;
 #trabajos{
     background-color: #81c9fa;
     width: 100%;
-    height: 90%;
+    height: 100%;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
