@@ -78,6 +78,8 @@ trabajos:`
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -107,9 +109,25 @@ trabajos:`
     <div class="carousel-item">
       <img src="./imagenes/spaYerbaMate.png"  alt="...">
       <div class="carousel-caption d-md-block">
-        <h5 class= "tituloT">SPA Yerba mate</h5>
+        <h5 class= "tituloT">SPA yerba mate</h5>
         <p class="parrafoT">Utilizando una API de gatitos, realice este pequeño proyecto con HTML5, CSS3  y JavaScript.</p>
         <a href="https://yerbamatewithvuejs.netlify.app" target="_blank" class="btn btn-primary">Ver proyecto</a> 
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/encriptador.png" alt="...">
+      <div class="carousel-caption d-md-block">
+      <h5 class= "tituloT">Encriptador</h5>
+        <p class="parrafoT">Pequeño proyecto con HTML5, CSS3  y JavaScript que forma parte del primer challenge del curso de One Next Education.</p>
+        <a href="https://github.com/VeroRamm/encriptador.git" target="_blank"class="btn btn-primary">Ver proyecto</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/ahorcado.png" alt="...">
+      <div class="carousel-caption d-md-block">
+      <h5 class= "tituloT">Juego Ahorcado</h5>
+        <p class="parrafoT">Proyecto con HTML5, CSS3  y JavaScript que forma parte del segundo challenge del curso de One Next Education.</p>
+        <a href="https://veroramm.github.io/juegoAhorcado/" target="_blank"class="btn btn-primary">Ver proyecto</a>
       </div>
     </div>
   </div>
@@ -160,7 +178,7 @@ const app = new Vue({
               data: function(){
                 return {
                   titulo: 'Bienvenidos',
-                  parrafo1: 'Me llamo Veronica, soy desarrolladora Full Stack trainer.',
+                  parrafo1: 'Me llamo Veronica, soy desarrolladora Full Stack en formacion.',
                   parrafo2: 'En este portafolio van a ver como fue mejorando mi trabajo con cada nuevo proyecto que emprendi.',
                   view:'home'
                 }
