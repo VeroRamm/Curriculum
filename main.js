@@ -48,10 +48,11 @@ skills:`
      <i class="fa-brands fa-bootstrap"></i>
      <i class="fa-brands fa-vuejs"></i>
      <i class="fa-brands fa-python"></i>
+     <img src="./imagenes/django.png" alt="Django" width="50px" class="django">
+     <i class="fa-solid fa-flask"></i> 
      <i class="fas fa-database"></i>
      <i class="fab fa-aws"></i>
      <i class="fab fa-github"></i>
-     <i class="fa fa-flask"></i> 
   </div>
 </article>
 <article>
@@ -62,8 +63,9 @@ skills:`
         <li>Escucha activa</li>
         <li>Trabajo en equipo</li>
         <li>Adaptacion al cambio</li>
-        <li>Capacidad para resolver problemas</li>
+        <li>Resolucion de problemas</li>
         <li>Poder dar respuestas rapidas y asertivas</li> 
+        <li>Capacidad de analisis</li>
     </ul>       
  </article>
 </section>
