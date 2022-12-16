@@ -146,7 +146,7 @@ trabajos:`
  <div id="contacto" class="active">
  <h3>Formas de contactarme</h3>
  <section  id="contacto"class="contacto">
- <form action="" id="formulario" class = "formulario" @submit="checkForm">
+ <form action="https://formsubmit.co/dae75c7a94cf2a0418363ec3c306b4f1" method="POST" id="formulario" class = "formulario" @submit="checkForm">
  <input v-model= "nombre" class= "input" type="text" id="nombre" name="nombre" placeholder="Nombre">
  <input v-model = "email" class= "input" type="email" id="email" name="email" placeholder="Email">
  <textarea v-model= "mensaje" class= "inputText" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
@@ -155,7 +155,7 @@ trabajos:`
  <div class="datos">
  <h4 class="contacto-icon">
  <a href=""><i class="fa-brands fa-whatsapp-square"></i>11- 66531806</a><br>
- <a href=""><i class="fa-solid fa-envelope"></i>vero.ramm@gmail.com</a>
+ <a href="mailto:vero.ramm@gmail.com"><i class="fa-solid fa-envelope"></i>vero.ramm@gmail.com</a>
  </h4>
  <div class="contacto-icon">
     <a href="https://www.facebook.com/Vero.Ramm1514"><i class="fa-brands fa-facebook"></i> </a>
