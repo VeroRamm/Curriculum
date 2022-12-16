@@ -32,6 +32,7 @@ const templates={
     Mi motivación principal es convertirme en una gran profesional, por eso espero que las experiencias y <br>
     habilidades que les ofrezco se adapten a lo que ustedes necesitan para poder continuar creciendo profesionalmente en su equipo.
     </p>
+    <p>Siempre en busqueda de perfeccionarme, soy una persona autodidacta, actualmente estoy terminando el curso de Oracle OneNextEducation, y conclui satisfactoriamente los cursos de Codo a Codo Inicial y Full Stack.</p>
     <a class="descarga" href="./Maria Veronica Trias Curriculum Vitae.pdf" download="Maria Veronica Trias Curriculum Vitae">Descagar CV</a><!--Poder descargar el cv-->
 </section>
 </div>`,
@@ -224,6 +225,7 @@ const app = new Vue({
                             alert('Por favor complete todos los campos');
                         }else{
                             alert('Mensaje enviado');
+                            location.href = "http://127.0.0.1:5500/index.html"
                             
                         }
 
